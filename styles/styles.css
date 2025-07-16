@@ -1,28 +1,35 @@
+:root{
+    --main-color: #280029;
+    --border: 2px solid rgba(40, 0, 41, 0.5);
+    --align-text: center;
+    --padding: 1rem;
+}
+
 nav {
-    background-color: #280029;
-    padding: 10px;
+    background-color: var(--main-color);
+    padding: var(--padding);
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 h1 {
-    color: #280029;
+    color: var(--main-color);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 2px solid rgba(40, 0, 41, 0.5);
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 0;
+    padding: var(--padding);
 }
 
 main {
@@ -32,11 +39,11 @@ main {
 aside{
     width: 40rem;
     margin: 2rem;
-    border: 2px solid rgba(40, 0, 41, 0.3);
+    border: var(--border);
     padding: 1.4rem;
     background-color: #F6F5FF;
-    color: #280029;
-    text-align: center;
+    color: var(--main-color);
+    text-align: var(--align-text);
 }
 
 aside img{
@@ -46,6 +53,6 @@ aside img{
 
 footer{
     margin-top: 10px;
-    border-top: 1px solid #280029;
-    text-align: center;
+    border-top: var(--border);
+    text-align: var(--align-text);
 }
