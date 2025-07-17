@@ -60,14 +60,14 @@ h1 {
 
 .hero article {
     position: absolute;
-    bottom: 10%;
+    bottom: 0.1rem;
     left: -1rem;
     width: 100%;
-    padding: 10px;
     opacity: 0.8;
+    padding: 10px;
     text-align: left;
-    background-color: var(--accent2-color);
-    color: var(--secondary-color);
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 .hero article img {
