@@ -1,0 +1,39 @@
+:root{
+--primary-color: #2B4E87;
+--secondary-color: #A8DCF0;
+--accent1-color:  #FFB55C;
+--accent2-color: #092251;
+--heading-font: "Fugaz One", sans-serif;
+--body-font: "Roboto", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--body-font);
+    color: var(--accent2-color);
+}
+
+header, main, footer{
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none; /*removes underlines on hyperlinks*/
+}
+
