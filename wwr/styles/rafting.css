@@ -108,6 +108,7 @@ h1 {
 }
 
 /*Sections*/
+/* History Section */
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -132,6 +133,7 @@ h1 {
     margin: 0.5rem;
 }
 
+/* Adventure Section */
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -161,6 +163,30 @@ h1 {
     font-style: italic;
 }
 
+/* Footer */
+footer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-top: 1px dotted var(--primary-color);
+}
+
+footer p {
+    grid-column-start: 2;
+}
+
+footer nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+footer nav img {
+    width: 40px;
+    height:auto;
+}
 
 
 
