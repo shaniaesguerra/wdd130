@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat";
+    font-size: medium;
+    color: #353446;
+}
+
+header{
+    margin: 0 auto;
+    padding: 1em;
+    width: 700px;
+}
+
+h1{
+    font-family: "Josefin Sans";
+    font-weight: 800;
+    text-align: center;
+    border-bottom: 1px solid #353446;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border:1.5px solid rgb(53 52 70 / 0.2);
+    border-radius: 0.6em ; /*rounds the corners*/
+    background-color: #F0F2FA;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid: 1em;
+    margin:0.5rem;
+    padding: 1rem;
+    border:1.5px solid rgb(53 52 70 / 0.4);
+}
+
+legend{
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    font-size: large;
+    padding: 0.5rem;
+}
+
+label,input, button, select, textarea {
+    font-family: "Montserrat";
+}
+
+label {
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]{
+    width: 23px;
+    height: 23px;
+    vertical-align: bottom;
+}
+
+button{
+    margin: 1rem;
+    background-color: #353446;
+    color: #F0F2FA;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color:#468189 ;
+}
+
+footer{
+    margin: 1rem 0 auto ;
+    width: 700px;
+    padding: 1em;
+    text-align: center;
+    justify-self: center;
+    font-size: 0.8rem;
+    border-top: 1px solid #353446;
+}
+
+
+
