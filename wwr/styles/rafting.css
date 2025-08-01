@@ -111,7 +111,6 @@ h1 {
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-self: space-evenly;
     align-items: center;
     background-color: var(--accent1-color);
     margin: 1em auto;
@@ -220,7 +219,7 @@ footer nav img {
 
 
 iframe {
-    width: 1fr;
+    width: 600px;
     height: 250px;
 }
 
@@ -270,7 +269,6 @@ form {
 
 fieldset{
     display: grid;
-    grid: 1em;
     margin:0.5rem;
     padding: 1rem;
     border:1.5px solid var(--primary-color);
