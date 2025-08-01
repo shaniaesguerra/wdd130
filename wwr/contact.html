@@ -20,25 +20,28 @@
     <header>
         <img src="images/wwr-logo.png" alt="Whitewater Rafting Logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="trips.html">TRIPS</a>
+            <a href="contact.html">CONTACT US</a>
         </nav>
     </header>
     <main>
         <div class="compinfo">
             <h2>COMPANY INFORMATION</h2>
-            <h4>Address</h4>
-            <p>Bighorn No. 8, AB T0L 2C0</p>
-            <h4>Email</h4>
-            <p>whitewater_raft@gmail.com</p>
+            <div>
+                <h4>Address:</h4>
+                <p>829 10 St #109, Canmore, AB T1W 0C3</p>
+                <h4>Email:</h4>
+                <p>whitewater_raft@gmail.com</p>
+            </div>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5011.269505826778!2d-115.06521577787983!3d51.096747845918074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1753999017623!5m2!1sen!2sca"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.934815029766!2d-115.36044681771428!3d51.09121049300967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5370c594b92181a1%3A0x4e8ca89534cde7dc!2sCanmore%20River%20Adventures!5e0!3m2!1sen!2sca!4v1754004989766!5m2!1sen!2sca"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <section class="adventure">
+        <section class="team">
+            <h2>MEET THE TEAM</h2>
             <figure>
                 <img src="images/employee-1.webp" alt="President">
                 <figcaption>President</figcaption>
@@ -53,49 +56,52 @@
             </figure>
         </section>
         <section class="userask">
+            <h2>SEND US A MESSAGE!</h2>
             <form>
                 <fieldset>
-                    <legend>Contact Information</legend>
-                    <div class="form-item">
+                    <legend>CONTACT INFORMATION</legend>
+                    <div class="form-item columns1">
                         <label for="fullname">Full Name:</label>
                         <input type="text" id="fullname" name="fullname">
                     </div>
-                    <div class="form-item">
+                    <div class="form-item columns1">
                         <label for="useremail">Email:</label>
                         <input type="email" id="useremail" name="useremail">
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend>Message</legend>
-                    <div>
-                        <label for="general">General Inquiry</label>
-                        <input type="radio" id="general" name="general">
-                    </div>
-                    <div>
-                        <label for="reserve">Reservation Question</label>
-                        <input type="radio" id="reserve" name="reserve">
-                    </div>
-                    <div>
-                        <label for="suggest">Suggestion</label>
-                        <input type="radio" id="suggest" name="suggest">
-                    </div>
-                    <div>
-                        <label for="message">Message:</label>
-                        <textarea name="message" id="message" rows="3" placeholder="Leave a message here..."></textarea>
+                    <legend>MESSAGE</legend>
+                    <div class="form-item columns2 toalign">
+                        <div id="gen">
+                            <input type="radio" id="general" name="general">
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div id="res">
+                            <input type="radio" id="reserve" name="reserve">
+                            <label for="reserve">Reservation Question</label>
+                        </div>
+                        <div id="sug">
+                            <input type="radio" id="suggest" name="suggest">
+                            <label for="suggest">Suggestion</label>
+                        </div>
+                        <div id="mess">
+                            <textarea name="message" id="message" rows="4" cols="55"
+                                placeholder="Leave a message here..."></textarea>
+                        </div>
                     </div>
                 </fieldset>
-                <div>
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                <div class="toalign">
                     <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit">SUBMIT</button>
             </form>
         </section>
     </main>
     <footer>
         <nav>
             <a href="https://app.moqups.com/hEgovJED5FhJSPm3XDZlOaNrOXsDyV6g/view/page/ad64222d5">
-                Link to Wireframe
+                LINK TO WIREFRAME
             </a>
         </nav>
         <p>&copy;2025 | Whitewater Rafting | Shania Esguerra</p>

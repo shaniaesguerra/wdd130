@@ -111,9 +111,10 @@ h1 {
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-evenly;
+    justify-self: space-evenly;
     align-items: center;
     background-color: var(--accent1-color);
+    margin: 1em auto;
 }
 
 .history h2 {
@@ -140,6 +141,7 @@ h1 {
     justify-self: center;
     align-items: center;
     background-color: var(--secondary-color);
+    margin: 1em auto;
 }
 
 .adventure h2 {
@@ -150,7 +152,7 @@ h1 {
 }
 
 .adventure img{
-    width: 200px;
+    width: 180px;
     height: auto;
     margin: 0.5rem;
 }
@@ -187,5 +189,177 @@ footer nav img {
     height:auto;
 }
 
+/*Contact page*/
+.compinfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    justify-self: center;
+    text-align: left;
+}
 
+.compinfo h2 {
+    grid-column: 1 / span 5;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 2.1rem;
+}
 
+.compinfo p {
+    font-style: italic;
+    font-size: larger;
+}
+
+.compinfo h4 {
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+iframe {
+    width: 1fr;
+    height: 250px;
+}
+
+.team {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 0.5em;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.team img{
+    width: 200px;
+    height: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 20px var(--accent2-color);
+}
+
+.team img:hover{
+    transform: scale(1.1);
+}
+
+.team figcaption{
+    font-size: large;
+    font-style: italic;
+}
+
+.userask h2{
+    text-align: center;
+    font-size: 2.1rem;
+    margin:1rem;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border:1.5px solid var(--primary-color);
+    box-shadow: 0 0 15px var(--accent2-color);
+    border-radius: 0.7em ; 
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid: 1em;
+    margin:0.5rem;
+    padding: 1rem;
+    border:1.5px solid var(--primary-color);
+}
+
+legend{
+    font-family: var(--heading-font);
+    font-size: large;
+    padding: 0.5rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, textarea{
+    margin: 0.3rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.columns1{
+    grid-template-columns: 1fr 3fr
+}
+
+.coulmns2{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#gen{
+    grid-column-start: 1;
+    place-items: center;
+}
+
+#res{
+    grid-column-start: 2;
+    place-items: center;
+}
+
+#sug{
+    grid-column-start: 3;
+    place-items: center;
+}
+
+#mess{
+    grid-column: 1 / span 3;
+}
+
+.toalign{
+    text-align: center;
+    align-items: center;
+    padding: 0.3em;
+}
+
+button{
+    margin: 1rem;
+    background-color: var(--accent2-color);
+    color: #F0F2FA;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    font-family: var(--heading-font);
+
+}
+
+button:hover{
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+}
+
+a {
+    text-decoration: none;
+    text-align: left;
+    color: var(--accent2-color);
+    padding: 0.5em;
+    border-radius: 0.6em;
+    font-family: var(--heading-font);
+}
+
+a:hover{
+    transform: scale(1.1);
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+}
