@@ -221,6 +221,7 @@ footer nav img {
 iframe {
     width: 600px;
     height: 250px;
+    border: 0;
 }
 
 .team {
