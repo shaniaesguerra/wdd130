@@ -196,11 +196,14 @@ footer nav img {
     align-items: center;
     justify-self: center;
     text-align: left;
+    margin-top: 6.1em ;
 }
 
-.compinfo h2 {
-    grid-column: 1 / span 5;
+.compinfo h1 {
+    grid-column: 1 / span 2;
     text-align: center;
+    justify-self: center;
+    margin: 5em auto;
     padding: 0.5em;
     font-size: 2.1rem;
 }
@@ -214,6 +217,7 @@ footer nav img {
     margin-left: 1.5rem;
     font-size: 1.5rem;
 }
+
 
 iframe {
     width: 1fr;
