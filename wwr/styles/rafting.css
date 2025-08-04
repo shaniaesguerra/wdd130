@@ -100,9 +100,10 @@ header img {
 
 #homebook p{
     text-align: center;
-    color: var(--accent2-color);
-    font-size: large;
-    font-weight: bold;
+    color: #ffff;
+    font-size:50px;
+    font-family: var(--heading-font);
+    text-shadow: 0 0 15px var(--accent2-color);
 }
 
 h1 {
@@ -422,6 +423,11 @@ a:hover {
 .tripbook{
     border: none;
     box-shadow: 0 0 0 transparent;
-    width: 200px;
+    width: 400px;
     opacity: 100%;
+}
+
+.tripbook button{
+    font-size: 2.5rem;
+    box-shadow: 0 0 20px var(--accent2-color);
 }
