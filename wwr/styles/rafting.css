@@ -93,6 +93,18 @@ header img {
     border-radius: 0.6em;
 }
 
+#homebook{
+    background-color: transparent;
+    opacity: 1;
+}
+
+#homebook p{
+    text-align: center;
+    color: var(--accent2-color);
+    font-size: large;
+    font-weight: bold;
+}
+
 h1 {
     position: absolute;
     top: 20px;
@@ -404,4 +416,12 @@ a:hover {
     align-self: baseline;
     color: var(--accent2-color);
     fill: var(--accent1-color);
+}
+
+/*Form button overlay - Home Page*/
+.tripbook{
+    border: none;
+    box-shadow: 0 0 0 transparent;
+    width: 200px;
+    opacity: 100%;
 }
