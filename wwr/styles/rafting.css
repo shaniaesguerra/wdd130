@@ -101,7 +101,7 @@ header img {
 #homebook p{
     text-align: center;
     color: #ffff;
-    font-size:50px;
+    font-size: 40px;
     font-family: var(--heading-font);
     text-shadow: 0 0 15px var(--accent2-color);
 }
@@ -411,7 +411,7 @@ a:hover {
     grid-column-end: 3 ;
 }
 
-.tabs svg {
+.tabs svg{
     width: 24px;
     height: 24px;
     align-self: baseline;
@@ -431,3 +431,50 @@ a:hover {
     font-size: 2.5rem;
     box-shadow: 0 0 20px var(--accent2-color);
 }
+
+#homeoverlay{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 2fr 2fr;
+    margin: 1em;
+}
+
+#homeoverlay h2{
+    position: absolute;
+    top: 170px;
+    width: 100%;
+    padding: 0.3em;
+    text-align:right;
+    font-size: 2.5rem;
+    grid-column-start: 2;
+}
+
+#homeoverlay img{
+    justify-content: left;
+    width: 500px;
+    grid-column-start: 1;
+    grid-row: 1 / span 2;
+    box-shadow: 0 0 20px var(--accent2-color);
+}
+
+#homeoverlay article{
+    bottom: 150px;
+    grid-column-end: 5;
+    width: 660px;
+    height:200px;
+    margin-left: 300px;
+    border-radius: 0.6em;
+    background-color:var(--primary-color);
+    text-align: center;
+    opacity: 0.9;
+    padding: 2em;
+    box-shadow: 0 0 20px #ffff;
+}
+
+#homeoverlay button{
+    position: absolute;
+    top: 470px;
+    left: 490px;
+    font-size: 2rem;
+    padding: 0.3em;
+}
+
