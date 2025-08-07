@@ -499,7 +499,7 @@ caption {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     color: #ffff;
-    grid-gap: 0.2em;
+    grid-gap: 0.6em;
     margin-top: 3em;
 }
 
@@ -514,6 +514,7 @@ caption {
     padding: 1.5em;
     justify-self: center;
     align-self: center;
+    height: 600px;
 }
 
 .activity img{
@@ -523,6 +524,10 @@ caption {
 
 .activity img:hover{
     transform: scale(1.05);
+}
+
+.activity figcaption{
+    margin-top: 1em;
 }
 
 .activity figcaption h2{
