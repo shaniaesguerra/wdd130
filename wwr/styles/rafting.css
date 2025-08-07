@@ -39,10 +39,12 @@ article {
     padding: 8px;
 }
 
-nav{
+nav {
     margin: 0;
 }
-nav, img{
+
+nav,
+img {
     border-radius: 0.6em;
 }
 
@@ -93,12 +95,12 @@ header img {
     border-radius: 0.6em;
 }
 
-#homebook{
+#homebook {
     background-color: transparent;
     opacity: 1;
 }
 
-#homebook p{
+#homebook p {
     text-align: center;
     color: #ffff;
     font-size: 40px;
@@ -397,7 +399,7 @@ a {
     margin: 0.5em;
     border-radius: 0.6em;
     font-family: var(--heading-font);
-    
+
 }
 
 a:hover {
@@ -406,12 +408,12 @@ a:hover {
     color: var(--accent2-color);
 }
 
-#wireframe{
+#wireframe {
     grid-column-start: 1;
-    grid-column-end: 3 ;
+    grid-column-end: 3;
 }
 
-.tabs svg{
+.tabs svg {
     width: 24px;
     height: 24px;
     align-self: baseline;
@@ -420,35 +422,35 @@ a:hover {
 }
 
 /*Form button overlay - Home Page*/
-.tripbook{
+.tripbook {
     border: none;
     box-shadow: 0 0 0 transparent;
     width: 400px;
     opacity: 100%;
 }
 
-.tripbook button{
+.tripbook button {
     font-size: 2.5rem;
     box-shadow: 0 0 20px var(--accent2-color);
 }
 
-#homeoverlay{
+#homeoverlay {
     display: grid;
     grid-template-columns: 1fr 0.5fr 2fr 2fr;
     margin: 1em;
 }
 
-#homeoverlay h2{
+#homeoverlay h2 {
     position: absolute;
     top: 170px;
     width: 100%;
     padding: 0.3em;
-    text-align:right;
+    text-align: right;
     font-size: 2.5rem;
     grid-column-start: 2;
 }
 
-#homeoverlay img{
+#homeoverlay img {
     justify-content: left;
     width: 500px;
     grid-column-start: 1;
@@ -456,21 +458,21 @@ a:hover {
     box-shadow: 0 0 20px var(--accent2-color);
 }
 
-#homeoverlay article{
+#homeoverlay article {
     bottom: 150px;
     grid-column-end: 5;
     width: 660px;
-    height:200px;
+    height: 200px;
     margin-left: 300px;
     border-radius: 0.6em;
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     text-align: center;
     opacity: 0.9;
     padding: 2em;
     box-shadow: 0 0 20px #ffff;
 }
 
-#homeoverlay button{
+#homeoverlay button {
     position: absolute;
     top: 470px;
     left: 490px;
@@ -478,3 +480,94 @@ a:hover {
     padding: 0.3em;
 }
 
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Trips Page */
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #ffff;
+    grid-gap: 0.2em;
+    margin-top: 3em;
+}
+
+#tripsheader h1{
+    margin-top: -80px;
+    font-size: 2em;
+    padding: 0;
+}
+
+.activity{
+    border-radius: 0.6em;
+    padding: 1.5em;
+    justify-self: center;
+    align-self: center;
+}
+
+.activity img{
+    width: 250px;
+    box-shadow: 0 0 14px var(--accent2-color);
+}
+
+.activity img:hover{
+    transform: scale(1.05);
+}
+
+.activity figcaption h2{
+    font-size: 2em;
+}
+
+#actone{
+    background-color: var(--accent2-color);
+}
+
+#actone img, #actthree img{
+    box-shadow: 0 0 14px var(--secondary-color);
+}
+
+#actone h2, #actthree h2{
+    color: #ffff;
+}
+
+#acttwo{
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+#actthree{
+    background-color: var(--primary-color);
+}
+
+
+/* Table Styling*/
+table {
+    justify-self: center;
+    border-radius: 0.6em;
+    overflow: hidden;
+}
+
+thead {
+    background-color: var(--accent1-color);
+}
+
+th,
+td {
+    border: 0.5px solid var(--primary-color);
+    padding: 8px 10px;
+}
+
+td:last-child {
+    margin-left: 10px;
+}
