@@ -561,6 +561,7 @@ table {
     justify-self: center;
     border-radius: 0.6em;
     overflow: hidden;
+    box-shadow: 0 0 14px var(--accent2-color);
 }
 
 thead {
@@ -573,6 +574,21 @@ td {
     padding: 8px 10px;
 }
 
-td:last-child {
-    margin-left: 10px;
+th {
+    font-family: var(--body-font);
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
 }
+
+td{
+    font-size: 16px;
+}
+
+#title{
+    font-family: var(--heading-font);
+    font-size: 2em;
+    font-style: normal;
+}
+
+/*Trips Bottom Overlay*/
