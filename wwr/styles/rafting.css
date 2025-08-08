@@ -637,7 +637,7 @@ td {
 #trips h2 {
     position: absolute;
     text-align: center;
-    color: #ffff;
+    color: var(--accent2-color);
     font-weight: 100;
     font-size: 2em;
     margin-top: -330px;
