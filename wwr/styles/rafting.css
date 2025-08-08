@@ -100,12 +100,17 @@ header img {
     opacity: 1;
 }
 
-#homebook p {
+#homebook h2 {
     text-align: center;
     color: #ffff;
     font-size: 40px;
     font-family: var(--heading-font);
-    text-shadow: 0 0 15px var(--accent2-color);
+    text-shadow: 0 0 100px var(--accent2-color);
+    background-color: var(--primary-color);
+    border-radius: 0.6em;
+    padding: 0.2em;
+    font-weight: 100;
+    opacity: 0.9;
 }
 
 h1 {
