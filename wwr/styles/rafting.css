@@ -503,13 +503,13 @@ caption {
     margin-top: 3em;
 }
 
-#tripsheader h1{
+#tripsheader h1 {
     margin-top: -80px;
     font-size: 2em;
     padding: 0;
 }
 
-.activity{
+.activity {
     border-radius: 0.6em;
     padding: 1.5em;
     justify-self: center;
@@ -517,41 +517,43 @@ caption {
     height: 600px;
 }
 
-.activity img{
+.activity img {
     width: 250px;
     box-shadow: 0 0 14px var(--accent2-color);
 }
 
-.activity img:hover{
+.activity img:hover {
     transform: scale(1.05);
 }
 
-.activity figcaption{
+.activity figcaption {
     margin-top: 1em;
 }
 
-.activity figcaption h2{
+.activity figcaption h2 {
     font-size: 2em;
 }
 
-#actone{
+#actone {
     background-color: var(--accent2-color);
 }
 
-#actone img, #actthree img{
+#actone img,
+#actthree img {
     box-shadow: 0 0 14px var(--secondary-color);
 }
 
-#actone h2, #actthree h2{
+#actone h2,
+#actthree h2 {
     color: #ffff;
 }
 
-#acttwo{
+#acttwo {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
 }
 
-#actthree{
+#actthree {
     background-color: var(--primary-color);
 }
 
@@ -581,14 +583,63 @@ th {
     font-style: italic;
 }
 
-td{
+tr td:first-child{
+    font-family: var(--heading-font);
+    font-size: 1.5em;
+    
+}
+
+td {
     font-size: 16px;
 }
 
-#title{
+#title {
     font-family: var(--heading-font);
     font-size: 2em;
     font-style: normal;
 }
 
 /*Trips Bottom Overlay*/
+#trips {
+    display: block;
+}
+
+#tripemployee {
+    position: absolute;
+    align-self: center;
+    justify-self: right;
+    width: 250px;
+    box-shadow: 0 0 14px var(--accent2-color);
+    opacity: none;
+    margin-top: -690px;
+    margin-right: 100px;
+}
+
+#trips button {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 300px;
+    padding: 0.3em;
+}
+
+#trips article {
+    position: absolute;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    width: 530px;
+    border-radius: 0.6em;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    box-shadow: 0 0 20px var(--accent2-color);
+    opacity: 0.9;
+}
+
+#trips h2 {
+    position: absolute;
+    text-align: center;
+    color: #ffff;
+    font-weight: 100;
+    font-size: 2em;
+    margin-top: -330px;
+    opacity: 1;
+}
